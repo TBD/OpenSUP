@@ -1,0 +1,1 @@
+Sketchup.active_model.active_view.zoom_extents

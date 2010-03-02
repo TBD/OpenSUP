@@ -1,0 +1,25 @@
+<html><head><title>SketchUp Macro Editor Demo</title>
+<style type="text/css">
+  body, textarea {font-family: Courier;font-size:14px;}
+  textarea {width: 100%; margin: 1em 0 1em 0;}
+  .close {float: right;cursor: pointer;}
+  .title {background: black;color: white;}
+  .help {color: #888;position: absolute;top:95%;text-align:center;width: 99%;}
+  .nav {margin: 0;display: inline;}
+  .script {margin: 1em 0 0 0.5em; background: #eee;border:1px solid #ccc;padding: 0.3em;display:none;float:right}
+  table {width: 100%; border-bottom:1px solid black}  
+</style>
+</head>
+<body>
+<table>
+<tr>
+<td>modules <div id="nav" class="nav"></div></td>
+<td align="right"><a href="#" onclick="App.newscript()">new</a> | load | save | <a href="#" onclick="App.script()">script</a></td>
+</tr>
+</table>
+<div id="script" class="script"></div>
+<div id="help" class="help"></div>
+<script type="text/javascript" src="drag.js"></script>
+<script type="text/javascript" src="moo.ajax.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body></html>
