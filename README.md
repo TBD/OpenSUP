@@ -16,7 +16,7 @@ in creating Ruby extensions in C
 
 **license:**
 
-[open source](http://opensource.org/docs/osd)
+[open source - Simple Public license ](http://www.opensource.org/licenses/Simple-2.0)
 
 **contact:**
 
