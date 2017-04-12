@@ -1,0 +1,96 @@
+{
+  "name": "TBD/OpenSUP",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://plugins.ro",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/TBD/OpenSUP",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "OpenSUP",
+      "subhead": "Open SketchUp Projects",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "OpenSUP: Open SketchUp Projects",
+          "url": "http://plugins.ro"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "TBD",
+          "repo": "OpenSUP"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p><strong>what:</strong></p>\n<p>old projects from plugins.ro made open source</p>\n<p><strong>content:</strong></p>\n<ul>\n<li><p>Dezip - Ruby library for unziping files</p>\n</li>\n<li><p>SME - <strong>S</strong>ketchup <strong>M</strong>acro <strong>E</strong>ditor - web based interface for creating ruby scripts</p>\n</li>\n<li><p>SUExt - simple extension that adds 1 to input to give you a head start\nin creating Ruby extensions in C</p>\n</li>\n</ul>\n<p><strong>license:</strong></p>\n<p><a href=\"http://www.opensource.org/licenses/Simple-2.0\">open source - Simple Public license </a></p>\n<p><strong>contact:</strong></p>\n<p><a href=\"mailto:opensup@plugins.ro\">opensup@plugins.ro</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/TBD/OpenSUP",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/TBD",
+          "text": "TBD"
+        }
+      ]
+    }
+  ]
+}
